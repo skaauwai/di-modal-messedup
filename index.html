@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modals</title>
+<link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
+    <main>
+      <p>This is my modal playground</p>
+    <button id="modalBtn" class="button">Open Modal</button>
+    <div class="modal" class="modal">
+        <div class="modal_overlay"></div>
+        <div class="modal_body">
+            <header class="modal_header">
+            Contact Me!
+            <button class="modal_close-btn"></button>
+        </header>     
+      </div>
+        <div class="modal_content"></div>
+            <form class="form">
+                <div class="form_element">               
+                <label for="fname" class="form_label">Name"</label>
+                    <input 
+                    type="text" 
+                    id="name"
+                    name="name" 
+                    placeholder="Your name..">
+
+                    <label for="email" class="form_label">Email Address</label>
+                    <input
+                    id="email" 
+                    name="email"
+                    type="text"
+                    class="form_input"
+                    placeholder="Your email address">
+
+                    <label for="message" class="form_label">Message</label>
+                    <input
+                    id="Message" 
+                    name="message"
+                    type="text"
+                    class="form_input"
+                    placeholder="My message">
+
+                    <input type="submit" value="Submit">
+                  </form>
+                </div>
+                </main>
+    <footer class="modal_footer">
+        <button class="modal_action">Send</button>
+        </footer>
+      </div>
+<script src="./index.js"></script>
+  </body>
+</html>
